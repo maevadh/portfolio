@@ -1,0 +1,142 @@
+body {
+  margin-top: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+.nav-bar {
+  justify-content: flex-end;
+  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+.color-text_navbar {
+  color: #0a66c2;
+}
+
+.color-text_navbar:hover {
+  background: radial-gradient(rgba(199, 160, 129, 0.3), transparent);
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: auto;
+  overflow: hidden;
+}
+
+li a {
+  display: block;
+  padding: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.img_cover-cv {
+  display: flex;
+  /*align-items: center;
+  justify-content: center;*/
+  background-image: url(../img/ImgCover_cv.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h2 {
+  display: flex;
+  font-size: 36px;
+  text-align: center;
+  justify-content: center;
+  /*background: linear-gradient(10deg, rgba(102,103,171,0.2) 0%, rgba(102,103,171,0.5) 50%, rgba(102,103,171,0.6) 100%);  color: white;*/
+  width: 100%;
+  margin: 0;
+  color:#0a66c2;
+}
+
+.img_cv {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.img_cv-size {
+  height: 200px;
+  width: 200px;
+  margin-right: 20px;
+  margin-left: 20px;
+  object-fit: cover;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.logo_skills-size {
+  height: 50px;
+  width: 50px;
+  margin-right: 40px;
+  object-fit: cover;
+}
+
+.text_container {
+  margin-top: 100px;
+}
+
+.text_thanks {
+  width: 80%;
+  text-align: justify;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.logo_kenai {
+height: 15px;
+width: 15px;
+}
+
+
+.footer {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.container {
+  align-items: center;
+  text-align: justify;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-margin {
+margin: 15px;
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+}
